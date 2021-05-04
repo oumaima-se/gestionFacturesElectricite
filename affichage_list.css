@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    color: black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A0D3F8;
+}
+.signout {
+    float: right;
+}
+
+.dashboard{
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #C6E5FB;
+}
+.welcome{
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 14px 16px;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+.btn {
+  color: black;
+  padding: 6px 14px;
+  border: none;
+  margin: 8px 0;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.ajouter {
+  color: black;
+  padding: 10px 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #EA9AA2;
+  ;
+} 
+
+.ajouter:hover {background: #F1BBC1;}
+
+.retour{
+  background-color: #54B0F2;
+  color: black;
+  padding: 6px 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.retour:hover {
+  background-color: #1B96EE;
+}
+
+.afficher {background-color: #91928B;}
+.afficher:hover {background: #7D7E77 ;}
+
+.modifier {background-color: #8AA29E;} /* Orange */
+.modifier:hover {background: #77928E;}
+
+.supprimer {background-color: #DB5461;} /* Red */
+.supprimer:hover {background: #D43545;}
+
+
+table {
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  border-width: 1px;
+  border-color: #3A3A3A;
+  border-collapse: collapse;
+}
+
+table, th {
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #EA9AA2;
+  background-color: #EA9AA2;
+}
+
+table, td {
+  background-color: #DFEBF1;
+}
+td:hover{
+  background-color: #F1BBC1;
+}
+
+table, td {
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #EA9AA2;
+  background-color: #ffffff;
+}
+
+.container-facture{
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    float: left;
+}

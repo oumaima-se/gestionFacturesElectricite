@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    color: black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A0D3F8;
+}
+.signout {
+    float: right;
+}
+
+.dashboard{
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #C6E5FB;
+}
+
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 40px 60px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    border-radius: 60px; 
+    margin: 300px 8px;
+    display:inline-block;
+}
+  
+.ajouter {background-color: #EA9AA2;} 
+  
+.ajouter:hover {background: #F1BBC1;}
